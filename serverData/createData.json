@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "name": "Nginx",
+      "value": "nginx"
+    },
+    {
+      "name": "Red Discord Bot",
+      "value": "reddiscordbot"
+    },
+    {
+      "name": "NodeJs",
+      "value": "nodejs"
+    },
+    {
+      "name": "Python",
+      "value": "python"
+    },
+    {
+      "name": "All-in-one",
+      "value": "aio"
+    },
+    {
+      "name": "Storage",
+      "value": "storage"
+    },
+    {
+      "name": "Java",
+      "value": "java"
+    },
+    {
+      "name": "[Minecraft] PaperMC",
+      "value": "paper"
+    },
+    {
+      "name": "[Minecraft] Forge",
+      "value": "forge"
+    },
+    {
+      "name": "alt:V",
+      "value": "altv"
+    },
+    {
+      "name": "Multi Theft Auto",
+      "value": "multitheftauto"
+    },
+    {
+      "name": "Rage Multiplayer",
+      "value": "ragemp"
+    },
+    {
+      "name": "San Andreas Multiplayer",
+      "value": "samp"
+    },
+    {
+      "name": "[Minecraft] Bedrock",
+      "value": "bedrock"
+    },
+    {
+      "name": "[Minecraft] Pocketmine-MP",
+      "value": "pocketminemp"
+    },
+    {
+      "name": "Garry’s Mod",
+      "value": "gmod"
+    },
+    {
+      "name": "Counter-Strike: Global Offensive",
+      "value": "csgo"
+    },
+    {
+      "name": "ARK: Survival Envolved",
+      "value": "arkse"
+    },
+    {
+      "name": "Teamspeak 3",
+      "value": "ts3"
+    },
+    {
+      "name": "Mumble",
+      "value": "mumble"
+    },
+    {
+      "name": "Rust",
+      "value": "rust"
+    },
+    {
+      "name": "MongoDB",
+      "value": "mongodb"
+    },
+    {
+      "name": "Redis",
+      "value": "redis"
+    },
+    {
+      "name": "PostgreSQL",
+      "value": "postgres"
+    },
+    {
+      "name": "7 Days to Die",
+      "value": "daystodie"
+    },
+    {
+      "name": "Arma 3",
+      "value": "arma"
+    },
+    {
+      "name": "Assetto Corsa",
+      "value": "assettocorsa"
+    },
+    {
+      "name": "Avorion",
+      "value": "avorion"
+    },
+    {
+      "name": "Barotrauma",
+      "value": "barotrauma"
+    },
+    {
+      "name": "[Minecraft] Waterfall",
+      "value": "waterfall"
+    },
+    {
+      "name": "[Minecraft] SpigotMC",
+      "value": "spigot"
+    },
+    {
+      "name": "ShareX Server",
+      "value": "sharex"
+    },
+    {
+      "name": "VisualStudio Web",
+      "value": "codeserver"
+    },
+    {
+      "name": "Gitea",
+      "value": "gitea"
+    },
+    {
+      "name": "Hastebin Server",
+      "value": "haste"
+    }
+  ]
+}

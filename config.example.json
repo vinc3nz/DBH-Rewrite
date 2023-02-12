@@ -1,0 +1,18 @@
+{
+  "DiscordBot": {
+    "Token": "Discord Bot Token",
+    "Prefix": "DBH!",
+    "clientID": "Discord Client Id",
+    "clientSecret": "Discord Bot Secret",
+    "mainGuild": "890303112512954439"
+  },
+  "Pterodactyl": {
+    "hosturl": "http://192.168.178.104",
+    "apikey": "Ptero API Key"
+  },
+  "discord": {
+    "roles": {
+      "member": "639489891016638496"
+    }
+  }
+}
