@@ -89,6 +89,8 @@ module.exports = {
             .setTimestamp()
             .setImage("https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif")
 
+        await interaction.reply({ embeds: [loadingEmbed] });
+
         let serverType = interaction.options.getString('type');
         let serverName = interaction.options.getString('name') || "change me (Settings -> Server Name)";
 
@@ -139,19 +141,19 @@ module.exports = {
                             { name: `__**Server name:**__`, value: serverName },
                             { name: `__**Type:**__`, value: serverType },
                             { name: `__**WARNING**__`, value: `**DO NOT USE JAVA TO RUN GAMESERVERS. IF THERE IS A GAME YOU ARE WANTING TO HOST AND IT DOES NOT HAVE A SERVER PLEASE MAKE A TICKET**`})
-                    interaction.reply({ embeds: [embed]})
+                    interaction.editReply({ embeds: [embed]})
                 }).catch(error => {
                     if(error.response)
                         console.log(error.response.data)
                 if (error === "Error: Request failed with status code 400") {
                     const embed = new EmbedBuilder()
                         .addFields({ name: `__**Failed to create a new server**__`, value: `The node is currently full, Please check <#898327108898684938> for updates.` });
-                    interaction.reply({ embeds: [embed]})
+                    interaction.editReply({ embeds: [embed]})
                 } else {
                     if(error === "Error: Received one or more errors") { interaction.reply("Server created. Something is wrong with the API/Bot"); return; }
                     const embed = new EmbedBuilder()
                         .addFields({ value: "```\n" + error + "```", name: `__**Failed to create a new server**__`});
-                    interaction.reply({ embeds: [embed] })
+                    interaction.editReply({ embeds: [embed] })
                 }
             })
         }
