@@ -76,9 +76,9 @@ module.exports = {
         let consoleID = userData.get(interaction.user.id);
 
         if (consoleID == null) {
-            interaction.reply("Oh no, Seems like you do not have an account linked to your discord ID.\n" +
+            interaction.reply("Oh no, Seems like you do not have a panel account linked to your Discord account.\n" +
                 "If you have not made an account yet please check out `" +
-                config.DiscordBot.Prefix + "user new` to create an account \nIf you already have an account link it using `" +
+                config.DiscordBot.Prefix + "user new` to create an account \nIf you already have a panel account link it to your Discord account using `" +
                 config.DiscordBot.Prefix + "user link`");
             return;
         }
