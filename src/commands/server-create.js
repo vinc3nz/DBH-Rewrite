@@ -64,9 +64,6 @@ module.exports = {
                         "value": "haste"
                     })
         )
-        .addBooleanOption(option =>
-            option.setName('donator')
-                .setDescription('Whether or not the server should be a donator server.'))
         .addStringOption(option =>
             option.setName('name')
                 .setDescription('The name of the server.')
@@ -78,7 +75,7 @@ module.exports = {
         if (consoleID == null) {
             interaction.reply("Oh no, Seems like you do not have a panel account linked to your Discord account.\n" +
                 "If you have not made an account yet please check out `" +
-                config.DiscordBot.Prefix + "user new` to create an account \nIf you already have a panel account link it to your Discord account using `" +
+                "/user new` to create an account \nIf you already have a panel account link it to your Discord account using `" +
                 config.DiscordBot.Prefix + "user link`");
             return;
         }
