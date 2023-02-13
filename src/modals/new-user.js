@@ -69,7 +69,7 @@ module.exports = {
             interaction.guild.members.cache.get(interaction.user.id).roles.add(config.discord.roles.member);
         }).catch(err => {
 
-            if(!err.response) { interaction.editReply('Something went really wrong.'); return }
+            if(!err.response) { interaction.editReply('Oops, an error has occured.'); return }
 
             let errors = err.response.data.errors;
 
@@ -82,7 +82,7 @@ module.exports = {
                 })
             } else {
                 console.log("11")
-                interaction.editReply('an unexpected error has occured, please try again later...');
+                interaction.editReply('We hit a roadblock, please try again later.');
             }
         })
     }
